@@ -117,7 +117,7 @@ const StudentAssignmentList = ({ userId }) => {
         .getPublicUrl(fileName);
         
       // Get AI grading
-      const response = await fetch('https://1d46-2620-8d-8000-1070-49fa-a74a-6673-20ee.ngrok-free.app/grade', {
+      const response = await fetch('https://41d4-2620-8d-8000-1070-49fa-a74a-6673-20ee.ngrok-free.app/grade', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
